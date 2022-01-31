@@ -12,7 +12,7 @@ public class myFuzzyClass {
 	static FIS fis=null;
 	public static void main(String[] args) throws Exception {
 		
-		  InputStream is=new FileInputStream("/home/abdelghafar/eclipse-workspace/FuzzyProject/src/Naturallight.fcl");
+		  InputStream is=new FileInputStream("<file-path>/Naturallight.fcl");
 		   fis=FIS.load(is,true);
 
 	        // Error while loading?
